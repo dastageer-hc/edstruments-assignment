@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "dastageerhc-edstruments-82"
-          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
+          entrypoint: ""
           root: "build"
           
           
